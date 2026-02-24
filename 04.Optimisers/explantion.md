@@ -171,6 +171,8 @@ The optimizer:
 ✔️ Less sensitive to learning rate
 ✔️ Works well for CNNs, RNNs, Transformers
 
+![1*STiRp7PW5yIrvYZupZA6nw](https://github.com/user-attachments/assets/fe67ac5e-803c-4956-85d3-71829300be90)
+
 👉 That’s why Adam is the **industry standard**.
 
 ---
@@ -198,76 +200,6 @@ An optimizer is used to:
 ✅ Speed up training
 ✅ Stabilize learning
 ✅ Improve generalization
-
----
-
-## 🧪 Beginner-Level Interview Questions (With Answers)
-
-### Q1️⃣ What is an optimizer?
-
-👉 An optimizer is an algorithm that updates the parameters of a neural network to minimize the loss function.
-
----
-
-### Q2️⃣ Why optimizer is required in neural networks?
-
-👉 Because neural networks cannot learn automatically; optimizers adjust weights to reduce error.
-
----
-
-### Q3️⃣ Can a neural network learn without an optimizer?
-
-👉 No. Without an optimizer, weights remain constant and the model does not learn.
-
----
-
-### Q4️⃣ What is the role of learning rate?
-
-👉 It controls how big the weight update step is during training.
-
----
-
-### Q5️⃣ What happens if learning rate is too high?
-
-👉 Training becomes unstable and may diverge.
-
----
-
-### Q6️⃣ What happens if learning rate is too low?
-
-👉 Training becomes very slow.
-
----
-
-## 🧠 Intermediate Interview Questions
-
-### Q7️⃣ Difference between SGD and Adam?
-
-👉 SGD uses fixed learning rate, Adam uses adaptive learning rate and momentum.
-
----
-
-### Q8️⃣ Why is Adam preferred over SGD?
-
-👉 Adam converges faster and works well for deep and complex networks.
-
----
-
-### Q9️⃣ What problem does momentum solve?
-
-👉 It reduces oscillations and speeds up convergence.
-
----
-
-### Q🔟 What is convergence in optimization?
-
-👉 It is the point where loss stops decreasing significantly.
-
----
-
-## ⭐ One-Line Exam / Interview Definition
-
-> **An optimizer is an algorithm used to update the weights and biases of a neural network in order to minimize the loss function efficiently and achieve faster convergence.**
 
 ---
 
