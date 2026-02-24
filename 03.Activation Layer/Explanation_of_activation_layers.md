@@ -94,6 +94,7 @@ import numpy as np
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 ```
+<img width="856" height="554" alt="Sigmoid-Activation-Function" src="https://github.com/user-attachments/assets/d294e738-c7ca-406b-890b-8950c9ff4ee6" />
 
 ---
 
@@ -128,6 +129,7 @@ tanh(x) = (e^x − e^(−x)) / (e^x + e^(−x))
 def tanh(x):
     return np.tanh(x)
 ```
+<img width="976" height="576" alt="tanh" src="https://github.com/user-attachments/assets/3034655a-9ae4-4254-8e7c-4f7a5e7b56ad" />
 
 ---
 
@@ -163,6 +165,7 @@ ReLU(x) = max(0, x)
 def relu(x):
     return np.maximum(0, x)
 ```
+<img width="846" height="554" alt="Relu-activation-function" src="https://github.com/user-attachments/assets/64411fc4-4924-4b1d-b03b-2ef80ef8d5e3" />
 
 ---
 
@@ -189,6 +192,7 @@ LeakyReLU(x) = x (x>0), 0.01x (x<0)
 def leaky_relu(x, alpha=0.01):
     return np.where(x > 0, x, alpha * x)
 ```
+<img width="463" height="325" alt="leaky_relu" src="https://github.com/user-attachments/assets/1d271a26-3ec0-4cc6-8f67-0a5e525543a9" />
 
 ---
 
@@ -238,6 +242,8 @@ def softmax(x):
     exp_x = np.exp(x - np.max(x))
     return exp_x / np.sum(exp_x)
 ```
+<img width="702" height="668" alt="1*Fw0mkoOfu45_WZ0RkHI45w" src="https://github.com/user-attachments/assets/1e106ce5-1fc5-437b-9132-5a45ecda7d89" />
+
 
 ---
 
