@@ -61,6 +61,8 @@ def step(x):
 
 ## 2️⃣ Sigmoid Function 🟢
 
+![sigmoid](https://github.com/user-attachments/assets/9c9e05f7-16cf-4c4a-b65f-e166a3a131a4)
+
 ### 📐 Formula
 
 ```text
@@ -99,6 +101,8 @@ def sigmoid(x):
 ---
 
 ## 3️⃣ Tanh Function 🔵
+
+![1*KNZZYteeBqkJViS1_LT1CQ](https://github.com/user-attachments/assets/d739dcdf-5364-434b-a1ce-4cbc4dd5fd68)
 
 ### 📐 Formula
 
@@ -221,6 +225,8 @@ def elu(x, alpha=1.0):
 ---
 
 ## 7️⃣ Softmax 🔢
+
+![softmax](https://github.com/user-attachments/assets/e9ebea39-257e-4cf3-aa68-bf9d31edb70b)
 
 ### 🧠 Why Use It?
 
