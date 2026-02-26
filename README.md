@@ -1,4 +1,4 @@
-# 🧠 Neural Networks from Scratch Absolutely for Beginers
+# 🧠 Zero to Neural Networks
 
 <div align="center">
 
