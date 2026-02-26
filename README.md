@@ -1,4 +1,4 @@
-# 🧠 Neural Networks from Scratch
+# 🧠 Neural Networks from Scratch Absolutely for Beginers
 
 <div align="center">
 
@@ -23,17 +23,20 @@
 This isn't just another neural network tutorial. Here's why this is **THE definitive resource** for learning neural networks from scratch:
 
 #### 🔥 **1. Zero to Hero Approach**
+
 - 📌 **No Prerequisites**: Start with basic math, end with deep learning
 - 🧮 **Math Made Simple**: Every equation explained in plain English
 - 💻 **Code from Scratch**: Build everything using only NumPy (no black boxes!)
 - 🎓 **Learn by Doing**: Hands-on Jupyter notebooks for every concept
 
 #### 🎯 **2. Complete Learning System**
+
 ```
 📖 Theory → 🧮 Math → 💻 Code → 🧪 Practice → 🚀 Projects
 ```
 
 #### 🌟 **3. What You Get**
+
 - ✅ **15 Comprehensive Modules** covering everything from neurons to CNNs
 - ✅ **Interactive Jupyter Notebooks** with live code examples
 - ✅ **Visual Explanations** with diagrams and animations
@@ -46,13 +49,14 @@ This isn't just another neural network tutorial. Here's why this is **THE defini
 #### 💎 **4. Why "From Scratch" Matters**
 
 | 🚫 Using Libraries Only | ✅ Building from Scratch |
-|-------------------------|--------------------------|
-| Black box understanding | Crystal clear intuition |
-| Copy-paste coding | Deep comprehension |
-| Stuck when things break | Debug like a pro |
-| Surface-level knowledge | Master-level expertise |
+| ----------------------- | ------------------------ |
+| Black box understanding | Crystal clear intuition  |
+| Copy-paste coding       | Deep comprehension       |
+| Stuck when things break | Debug like a pro         |
+| Surface-level knowledge | Master-level expertise   |
 
 #### 🎓 **5. Perfect for**
+
 - 🎯 **Complete Beginners** wanting to understand AI/ML
 - 💻 **Developers** transitioning to machine learning
 - 🎓 **Students** preparing for AI/ML courses or interviews
@@ -64,6 +68,7 @@ This isn't just another neural network tutorial. Here's why this is **THE defini
 ## 🚀 Quick Start
 
 ### 📋 Prerequisites
+
 ```bash
 # Just Python and NumPy!
 pip install numpy jupyter matplotlib
@@ -89,32 +94,40 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 ### 🌱 **Phase 1: Foundations** (Start Here!)
 
 #### 📘 [01. Neural Network Introduction](./01.Neural%20Network%20Introduction/)
+
 **What you'll learn:**
+
 - 🧠 What is a neural network?
 - 🔢 The fundamental formula: `x₁w₁ + x₂w₂ + b`
 - ⚡ Why activation functions matter
 - 🎯 Your first neuron from scratch
 
 **Files:**
+
 - 📄 `Intro.md` - Conceptual foundation
 - 📓 `NeuralNetworks_Coding_From_Scratch_Part1.ipynb` - Hands-on coding
 
 ---
 
 #### 🏗️ [02. Coding a Dense Layer](./02.Coding%20a%20dense%20layer/)
+
 **What you'll learn:**
+
 - 🔗 How neurons connect in layers
 - 🧮 Matrix operations for efficiency
 - 💻 Building your first dense layer
 - 📊 Forward propagation implementation
 
 **Files:**
+
 - 📓 `Dense_layer.ipynb` - Complete implementation
 
 ---
 
 #### ⚡ [03. Activation Functions](./03.Activation%20Layer/)
+
 **What you'll learn:**
+
 - 🟢 **Sigmoid** - For probabilities (0 to 1)
 - 🔵 **Tanh** - Zero-centered outputs (-1 to 1)
 - 🔥 **ReLU** - The modern default (fast & effective)
@@ -122,6 +135,7 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 - 🔢 **Softmax** - Multi-class classification
 
 **Files:**
+
 - 📄 `Explanation_of_activation_layers.md` - Theory & use cases
 - 📓 `activation_functions.ipynb` - All activations coded from scratch
 
@@ -138,7 +152,9 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 ### 🔥 **Phase 2: Training Neural Networks**
 
 #### 🎯 [04. Optimizers](./04.Optimisers/)
+
 **What you'll learn:**
+
 - 📉 Gradient Descent basics
 - 🎲 Stochastic Gradient Descent (SGD)
 - 🏃 Momentum - Accelerated learning
@@ -146,25 +162,31 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 - ⚡ Adam - The industry standard
 
 **Files:**
+
 - 📄 `explantion.md` - How optimizers work
 
 ---
 
 #### 🧮 [05. Partial Derivatives](./05.Partial_Derivatives/)
+
 **What you'll learn:**
+
 - 📐 Calculus for neural networks
 - 🔗 Chain rule explained simply
 - 📊 Computing gradients
 - 🎯 Why derivatives matter for learning
 
 **Files:**
+
 - 📄 `partial_derivatives_explantion.md` - Math foundations
 - 📄 `gradient_derivative.md` - Gradient computation
 
 ---
 
 #### 🔄 [06. Backpropagation](./06.BackPropogation/) ⭐ **CRITICAL**
+
 **What you'll learn:**
+
 - 🧠 **The backbone of neural networks**
 - 🔄 How networks learn from mistakes
 - 🧮 Computing gradients efficiently
@@ -172,6 +194,7 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 - 🎯 Training on real data (spiral dataset)
 
 **Files:**
+
 - 📄 `Backpropogation_explanation.md` - Complete theory
 - 📄 `backpropogation_manual_calculation.md` - Step-by-step math
 - 📄 `single_neural_layer_code_from_scratch.md` - Minimal implementation
@@ -179,6 +202,7 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 - 📓 `Spiral_data_backpropogation.ipynb` - Real-world example
 
 **Why This is Essential:**
+
 > Without backpropagation, neural networks cannot learn. This is the most important algorithm in deep learning!
 
 ---
@@ -186,12 +210,15 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 ### 🚀 **Phase 3: Advanced Topics**
 
 #### 🎨 [Building Micrograd](./Building_Micrograd_Andrej_Karpathy/)
+
 **What you'll learn:**
+
 - 🔧 Build an autograd engine from scratch
 - 🧠 Understand PyTorch internals
 - 🎓 Learn from Andrej Karpathy's legendary tutorial
 
 **Files:**
+
 - 📓 `01.Intro.ipynb` - Autograd implementation
 
 ---
@@ -199,6 +226,7 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 ## 📖 Learning Resources Included
 
 ### 📚 Books (11 Premium Resources)
+
 Located in [`Book_for_Deep_Learning/`](./Book_for_Deep_Learning/)
 
 - 📕 **Neural Networks and Deep Learning** - Michael Nielsen
@@ -213,6 +241,7 @@ Located in [`Book_for_Deep_Learning/`](./Book_for_Deep_Learning/)
 - 📋 **DL Notes** - Quick reference
 
 ### 📊 Cheat Sheets (10 Essential Guides)
+
 Located in [`Cheat_Sheet/`](./Cheat_Sheet/)
 
 - 🧠 Convolutional Neural Networks
@@ -227,6 +256,7 @@ Located in [`Cheat_Sheet/`](./Cheat_Sheet/)
 - 🚀 Super Cheatsheet: Artificial Intelligence
 
 ### 📄 Research Papers
+
 Located in [`Research_paper_Deep_Learning/`](./Research_paper_Deep_Learning/)
 
 Foundational papers that shaped modern AI
@@ -250,11 +280,11 @@ graph TD
 
 ### ⏱️ Time Commitment
 
-| Phase | Topics | Estimated Time |
-|-------|--------|----------------|
-| 🌱 Foundations | 01-03 | 1-2 weeks |
-| 🔥 Training | 04-06 | 2-3 weeks |
-| 🚀 Advanced | Micrograd + Projects | 2-4 weeks |
+| Phase          | Topics               | Estimated Time |
+| -------------- | -------------------- | -------------- |
+| 🌱 Foundations | 01-03                | 1-2 weeks      |
+| 🔥 Training    | 04-06                | 2-3 weeks      |
+| 🚀 Advanced    | Micrograd + Projects | 2-4 weeks      |
 
 **Total: 5-9 weeks** to master neural networks from scratch!
 
@@ -321,13 +351,14 @@ graph TD
 ✅ **Build** real-world machine learning applications  
 ✅ **Read** and understand research papers  
 ✅ **Transition** easily to frameworks like PyTorch and TensorFlow  
-✅ **Interview** confidently for ML/AI positions  
+✅ **Interview** confidently for ML/AI positions
 
 ---
 
 ## 🌟 Key Concepts Covered
 
 ### 🧠 Core Concepts
+
 - ✅ Neurons & Perceptrons
 - ✅ Forward Propagation
 - ✅ Activation Functions (Sigmoid, ReLU, Softmax, etc.)
@@ -337,6 +368,7 @@ graph TD
 - ✅ Matrix Operations for Neural Networks
 
 ### 🔥 Advanced Topics
+
 - ✅ Momentum & Adaptive Learning Rates
 - ✅ Regularization Techniques
 - ✅ Batch Normalization
@@ -351,6 +383,7 @@ graph TD
 ### 🎯 Week-by-Week Plan
 
 #### **Week 1-2: Foundations** 🌱
+
 - [ ] Read Neural Network Introduction
 - [ ] Code your first neuron
 - [ ] Build a dense layer
@@ -358,12 +391,14 @@ graph TD
 - [ ] **Milestone**: Understand forward propagation
 
 #### **Week 3-4: The Math** 🧮
+
 - [ ] Master partial derivatives
 - [ ] Understand the chain rule
 - [ ] Learn gradient computation
 - [ ] **Milestone**: Comfortable with calculus for ML
 
 #### **Week 5-6: Backpropagation** 🔥
+
 - [ ] Study backpropagation theory
 - [ ] Manual calculations
 - [ ] Code backprop from scratch
@@ -371,11 +406,13 @@ graph TD
 - [ ] **Milestone**: Build a fully functional neural network
 
 #### **Week 7-8: Optimization** ⚡
+
 - [ ] Implement SGD, Momentum, Adam
 - [ ] Compare optimizer performance
 - [ ] **Milestone**: Understand training dynamics
 
 #### **Week 9+: Advanced** 🚀
+
 - [ ] Build Micrograd
 - [ ] Work on real projects
 - [ ] Read research papers
@@ -401,13 +438,13 @@ graph TD
 ❌ Copy-pasting without understanding  
 ❌ Skipping the math sections  
 ❌ Not experimenting with the code  
-❌ Moving forward without mastering basics  
+❌ Moving forward without mastering basics
 
 ✅ Take your time with each concept  
 ✅ Type every line of code yourself  
 ✅ Work through the math step-by-step  
 ✅ Modify and experiment constantly  
-✅ Build solid foundations before advancing  
+✅ Build solid foundations before advancing
 
 ---
 
@@ -440,12 +477,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 
 ### 📚 Inspired By
+
 - 🎓 **Andrew Ng** - Deep Learning Specialization
 - 🧠 **Andrej Karpathy** - Neural Networks: Zero to Hero
 - 📖 **Michael Nielsen** - Neural Networks and Deep Learning
 - 🔬 **Ian Goodfellow** - Deep Learning Book
 
 ### 🌟 Special Thanks
+
 - The open-source community
 - All the researchers who made their papers accessible
 - Everyone contributing to democratizing AI education
@@ -463,6 +502,7 @@ jupyter notebook Intro.md
 ```
 
 ### 🎯 Remember:
+
 > "The best way to learn neural networks is to build them from scratch."
 
 ### 💪 You've Got This!
