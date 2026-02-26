@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Neural Network Banner](./Images/Layers_of_neuron.png)
+![Neural Network Animation](./Images/0mbdut1akdne1.gif)
 
 **The Ultimate Beginner's Guide to Understanding & Building Neural Networks**
 
@@ -98,8 +98,6 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 **Files:**
 - 📄 `Intro.md` - Conceptual foundation
 - 📓 `NeuralNetworks_Coding_From_Scratch_Part1.ipynb` - Hands-on coding
-
-![Neuron Structure](./Images/neuron_4.png)
 
 ---
 
