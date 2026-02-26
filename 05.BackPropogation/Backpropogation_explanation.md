@@ -105,6 +105,8 @@ For a weight `w`:
 
 ```
 
+<img width="860" height="386" alt="chain_rule" src="https://github.com/user-attachments/assets/fd389cf7-bdcc-493d-98f3-aff9ebf737e1" />
+
 Each term measures how changes propagate through the network.
 
 ---
