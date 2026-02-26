@@ -151,23 +151,7 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 
 ### 🔥 **Phase 2: Training Neural Networks**
 
-#### 🎯 [04. Optimizers](./04.Optimisers/)
-
-**What you'll learn:**
-
-- 📉 Gradient Descent basics
-- 🎲 Stochastic Gradient Descent (SGD)
-- 🏃 Momentum - Accelerated learning
-- 📊 RMSProp - Adaptive learning rates
-- ⚡ Adam - The industry standard
-
-**Files:**
-
-- 📄 `explantion.md` - How optimizers work
-
----
-
-#### 🧮 [05. Partial Derivatives](./05.Partial_Derivatives/)
+#### 🧮 [04. Partial Derivatives](./04.Partial_Derivatives/)
 
 **What you'll learn:**
 
@@ -183,7 +167,7 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 
 ---
 
-#### 🔄 [06. Backpropagation](./06.BackPropogation/) ⭐ **CRITICAL**
+#### 🔄 [05. Backpropagation](./05.BackPropogation/) ⭐ **CRITICAL**
 
 **What you'll learn:**
 
@@ -197,7 +181,6 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 
 - 📄 `Backpropogation_explanation.md` - Complete theory
 - 📄 `backpropogation_manual_calculation.md` - Step-by-step math
-- 📄 `single_neural_layer_code_from_scratch.md` - Minimal implementation
 - 📓 `backpropogation.ipynb` - Interactive tutorial
 - 📓 `Spiral_data_backpropogation.ipynb` - Real-world example
 
@@ -207,9 +190,108 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 
 ---
 
-### 🚀 **Phase 3: Advanced Topics**
+#### 🎯 [06. Why Matrices Matter in Backpropagation](./06.Why_matrices_imp_for_backpropogation/)
 
-#### 🎨 [Building Micrograd](./Building_Micrograd_Andrej_Karpathy/)
+**What you'll learn:**
+
+- 🔢 Why we use matrix operations in neural networks
+- 🧮 How input transpose appears in gradient computation
+- 📊 Shape reasoning for weight gradients
+- 💻 Matrix-based backpropagation implementation
+- 🎯 Forward and backward pass with matrices
+
+**Files:**
+
+- 📄 `explanation.md` - Complete matrix mathematics
+- 📓 `manual_cal_coding.ipynb` - Manual calculations with code
+
+**Key Insight:**
+
+> Forward pass distributes input through weights; backward pass distributes error through transposed weights.
+
+---
+
+#### 📉 [07. Gradient Descent](./07.Gradient_Desent/)
+
+**What you'll learn:**
+
+- 📉 Batch Gradient Descent
+- 🎲 Stochastic Gradient Descent (SGD)
+- 📊 Mini-batch Gradient Descent
+- ⚡ When to use each variant
+
+**Files:**
+
+- 📄 `Types_of_GD.md` - Explanation with code examples
+
+---
+
+#### 🚀 [08. Optimizers](./08.Optimisers/)
+
+**What you'll learn:**
+
+- 📉 Gradient Descent basics
+- 🏃 **Momentum** - Accelerated learning with velocity
+- 📊 **Adagrad** - Adaptive learning rates per parameter
+- 🔥 **RMSProp** - Root Mean Square Propagation
+- ⚡ **Adam** - The industry standard (Adaptive Moment Estimation)
+
+**Files:**
+
+- 📄 `explantion.md` - Overview of all optimizers
+- 📁 `1.Momentum/` - Momentum optimizer details
+- 📁 `2.Adagrad/` - Adagrad implementation
+- 📁 `3.Rmsprop/` - RMSProp explained
+- 📁 `4.Adam_Optimiser/` - Adam optimizer guide
+
+**Optimizer Comparison:**
+| Optimizer | Learning Rate | Best For |
+|-----------|---------------|----------|
+| SGD | Fixed | Simple problems |
+| Momentum | Fixed + velocity | Escaping local minima |
+| Adagrad | Adaptive per parameter | Sparse data |
+| RMSProp | Adaptive with decay | RNNs, non-stationary |
+| Adam | Adaptive + momentum | Default choice (most cases) |
+
+---
+
+### 🚀 **Phase 3: Advanced Topics & Bonus Content**
+
+#### 🎁 [Bonus Resources](./Bonus/)
+
+A comprehensive collection of premium learning materials to deepen your understanding.
+
+##### 📚 [Books for Deep Learning](./Bonus/Book_for_Deep_Learning/)
+
+11 carefully curated books covering theory to practice:
+
+- 📕 **Neural Networks and Deep Learning** - Michael Nielsen
+- 📗 **Deep Learning From Scratch** - Practical implementation
+- 📘 **Fundamentals of Deep Learning** - Comprehensive guide
+- 📙 **Applied Deep Learning** - Real-world applications
+- 📓 **Deep Learning with Python** - François Chollet
+- 📔 **Programming PyTorch** - Framework mastery
+- 📖 **Generative Deep Learning** - Creative AI
+- 📚 **NN from Scratch (Reference Book)** - Your main companion
+- 📝 **Deep Learning Course Notes** - Condensed wisdom
+- 📋 **DL Notes** - Quick reference
+
+##### 📊 [Cheat Sheets](./Bonus/Cheat_Sheet/)
+
+10 essential quick-reference guides:
+
+- 🧠 Convolutional Neural Networks
+- 🔄 Recurrent Neural Networks
+- 🤖 Transformers & Large Language Models
+- 💡 Deep Learning Tips & Tricks
+- 🎯 Reflex Models
+- 📊 States Models
+- 🔢 Variables Models
+- 🧮 Logic Models
+- 🌟 Super Cheatsheet: Deep Learning
+- 🚀 Super Cheatsheet: Artificial Intelligence
+
+##### 🎨 [Building Micrograd](./Bonus/Building_Micrograd_Andrej_Karpathy/)
 
 **What you'll learn:**
 
@@ -221,13 +303,19 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 
 - 📓 `01.Intro.ipynb` - Autograd implementation
 
+##### 📄 [Research Papers](./Bonus/Research_paper_Deep_Learning/)
+
+Foundational papers that shaped modern AI
+
 ---
 
 ## 📖 Learning Resources Included
 
+All premium resources are now organized in the [`Bonus/`](./Bonus/) folder for easy access!
+
 ### 📚 Books (11 Premium Resources)
 
-Located in [`Book_for_Deep_Learning/`](./Book_for_Deep_Learning/)
+Located in [`Bonus/Book_for_Deep_Learning/`](./Bonus/Book_for_Deep_Learning/)
 
 - 📕 **Neural Networks and Deep Learning** - Michael Nielsen
 - 📗 **Deep Learning From Scratch** - Practical implementation
@@ -242,7 +330,7 @@ Located in [`Book_for_Deep_Learning/`](./Book_for_Deep_Learning/)
 
 ### 📊 Cheat Sheets (10 Essential Guides)
 
-Located in [`Cheat_Sheet/`](./Cheat_Sheet/)
+Located in [`Bonus/Cheat_Sheet/`](./Bonus/Cheat_Sheet/)
 
 - 🧠 Convolutional Neural Networks
 - 🔄 Recurrent Neural Networks
@@ -257,7 +345,7 @@ Located in [`Cheat_Sheet/`](./Cheat_Sheet/)
 
 ### 📄 Research Papers
 
-Located in [`Research_paper_Deep_Learning/`](./Research_paper_Deep_Learning/)
+Located in [`Bonus/Research_paper_Deep_Learning/`](./Bonus/Research_paper_Deep_Learning/)
 
 Foundational papers that shaped modern AI
 
@@ -271,11 +359,13 @@ Foundational papers that shaped modern AI
 graph TD
     A[01. Neural Network Intro] --> B[02. Dense Layers]
     B --> C[03. Activation Functions]
-    C --> D[05. Partial Derivatives]
-    D --> E[06. Backpropagation]
-    E --> F[04. Optimizers]
-    F --> G[Building Micrograd]
-    G --> H[Real Projects]
+    C --> D[04. Partial Derivatives]
+    D --> E[05. Backpropagation]
+    E --> F[06. Matrix Mathematics]
+    F --> G[07. Gradient Descent]
+    G --> H[08. Optimizers]
+    H --> I[Building Micrograd]
+    I --> J[Real Projects]
 ```
 
 ### ⏱️ Time Commitment
@@ -283,10 +373,10 @@ graph TD
 | Phase          | Topics               | Estimated Time |
 | -------------- | -------------------- | -------------- |
 | 🌱 Foundations | 01-03                | 1-2 weeks      |
-| 🔥 Training    | 04-06                | 2-3 weeks      |
+| 🔥 Training    | 04-08                | 3-4 weeks      |
 | 🚀 Advanced    | Micrograd + Projects | 2-4 weeks      |
 
-**Total: 5-9 weeks** to master neural networks from scratch!
+**Total: 6-10 weeks** to master neural networks from scratch!
 
 ---
 
@@ -314,25 +404,34 @@ graph TD
 ├── 📁 03.Activation Layer/
 │   ├── 📄 Explanation_of_activation_layers.md
 │   └── 📓 activation_functions.ipynb
-├── 📁 04.Optimisers/
-│   └── 📄 explantion.md
-├── 📁 05.Partial_Derivatives/
+├── 📁 04.Partial_Derivatives/
 │   ├── 📄 partial_derivatives_explantion.md
 │   └── 📄 gradient_derivative.md
-├── 📁 06.BackPropogation/
+├── 📁 05.BackPropogation/
 │   ├── 📄 Backpropogation_explanation.md
 │   ├── 📄 backpropogation_manual_calculation.md
-│   ├── 📄 single_neural_layer_code_from_scratch.md
 │   ├── 📓 backpropogation.ipynb
 │   └── 📓 Spiral_data_backpropogation.ipynb
-├── 📁 Building_Micrograd_Andrej_Karpathy/
-│   └── 📓 01.Intro.ipynb
-├── 📁 Book_for_Deep_Learning/
-│   └── 📚 11 Premium Books
-├── 📁 Cheat_Sheet/
-│   └── 📊 10 Essential Cheat Sheets
-├── 📁 Research_paper_Deep_Learning/
-│   └── 📄 Foundational Papers
+├── 📁 06.Why_matrices_imp_for_backpropogation/
+│   ├── 📄 explanation.md
+│   └── 📓 manual_cal_coding.ipynb
+├── 📁 07.Gradient_Desent/
+│   └── 📄 Types_of_GD.md
+├── 📁 08.Optimisers/
+│   ├── 📄 explantion.md
+│   ├── 📁 1.Momentum/
+│   ├── 📁 2.Adagrad/
+│   ├── 📁 3.Rmsprop/
+│   └── 📁 4.Adam_Optimiser/
+├── 📁 Bonus/
+│   ├── 📁 Book_for_Deep_Learning/
+│   │   └── 📚 11 Premium Books
+│   ├── 📁 Cheat_Sheet/
+│   │   └── 📊 10 Essential Cheat Sheets
+│   ├── 📁 Building_Micrograd_Andrej_Karpathy/
+│   │   └── 📓 01.Intro.ipynb
+│   └── 📁 Research_paper_Deep_Learning/
+│       └── 📄 Foundational Papers
 ├── 📁 Images/
 │   └── 🖼️ Visual Resources
 └── 📄 README.md (You are here!)
@@ -402,11 +501,13 @@ graph TD
 - [ ] Study backpropagation theory
 - [ ] Manual calculations
 - [ ] Code backprop from scratch
+- [ ] Understand matrix operations in backprop
 - [ ] Train on spiral dataset
 - [ ] **Milestone**: Build a fully functional neural network
 
 #### **Week 7-8: Optimization** ⚡
 
+- [ ] Learn gradient descent variants
 - [ ] Implement SGD, Momentum, Adam
 - [ ] Compare optimizer performance
 - [ ] **Milestone**: Understand training dynamics
