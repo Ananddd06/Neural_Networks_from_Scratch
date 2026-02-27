@@ -4,13 +4,14 @@
 
 ![Neural Network Animation](./Images/0mbdut1akdne1.gif)
 
-**The Ultimate Beginner's Guide to Understanding & Building Neural Networks**
+**The Ultimate Beginner's Guide to Understanding & Building Neural Networks from Scratch**
 
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-013243?style=flat&logo=numpy)](https://numpy.org/)
 [![Python](https://img.shields.io/badge/Python-3.7+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![From Scratch](https://img.shields.io/badge/Built-From%20Scratch-orange?style=flat)](https://github.com)
 
-**[📚 Start Learning](#-why-this-is-the-best-resource) • [🚀 Quick Start](#-quick-start) • [📖 Content](#-complete-learning-path) • [💡 Projects](#-hands-on-projects)**
+**[📚 Why This?](#-why-this-is-the-best-resource) • [🚀 Quick Start](#-quick-start) • [📖 Content](#-complete-learning-path) • [📑 Index](#-complete-content-index) • [💡 Projects](#-hands-on-projects)**
 
 </div>
 
@@ -25,7 +26,7 @@ This isn't just another neural network tutorial. Here's why this is **THE defini
 #### 🔥 **1. Zero to Hero Approach**
 
 - 📌 **No Prerequisites**: Start with basic math, end with deep learning
-- 🧮 **Math Made Simple**: Every equation explained in plain English
+- 🧮 **Math Made Simple**: Every equation explained in plain English with proper LaTeX formatting
 - 💻 **Code from Scratch**: Build everything using only NumPy (no black boxes!)
 - 🎓 **Learn by Doing**: Hands-on Jupyter notebooks for every concept
 
@@ -37,12 +38,12 @@ This isn't just another neural network tutorial. Here's why this is **THE defini
 
 #### 🌟 **3. What You Get**
 
-- ✅ **15 Comprehensive Modules** covering everything from neurons to CNNs
+- ✅ **8 Comprehensive Modules** covering everything from neurons to optimizers
 - ✅ **Interactive Jupyter Notebooks** with live code examples
 - ✅ **Visual Explanations** with diagrams and animations
 - ✅ **Real Implementation** - build actual working neural networks
-- ✅ **10+ Reference Books** curated for deep learning
-- ✅ **Cheat Sheets** for quick reference
+- ✅ **11+ Reference Books** curated for deep learning
+- ✅ **10+ Cheat Sheets** for quick reference
 - ✅ **Research Papers** to understand the foundations
 - ✅ **Micrograd Tutorial** by Andrej Karpathy included
 
@@ -176,13 +177,17 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 - 🧮 Computing gradients efficiently
 - 💻 Full implementation from scratch
 - 🎯 Training on real data (spiral dataset)
+- 🔥 Cross-entropy loss implementation
 
 **Files:**
 
-- 📄 `Backpropogation_explanation.md` - Complete theory
-- 📄 `backpropogation_manual_calculation.md` - Step-by-step math
-- 📓 `backpropogation.ipynb` - Interactive tutorial
-- 📓 `Spiral_data_backpropogation.ipynb` - Real-world example
+- 📄 `01.Backpropogation_explanation.md` - Complete theory
+- 📄 `02.backpropogation_manual_calculation.md` - Step-by-step math
+- 📓 `03.backpropogation.ipynb` - Interactive tutorial
+- 📓 `04.Spiral_data_backpropogation.ipynb` - Real-world example
+- 📁 `Implemention_backpropogation_crossentropyloss/` - Advanced implementation
+  - 📄 `01.Implemention_backpropogation_crossentropyloss.md` - Theory
+  - 📓 `code.ipynb` - Complete code
 
 **Why This is Essential:**
 
@@ -239,10 +244,15 @@ jupyter notebook "01.Neural Network Introduction/Intro.md"
 **Files:**
 
 - 📄 `explantion.md` - Overview of all optimizers
-- 📁 `1.Momentum/` - Momentum optimizer details
-- 📁 `2.Adagrad/` - Adagrad implementation
-- 📁 `3.Rmsprop/` - RMSProp explained
-- 📁 `4.Adam_Optimiser/` - Adam optimizer guide
+- 📁 `1.Momentum/` - Momentum optimizer
+  - 📄 `explanation.md` - Theory
+  - 📓 `code.ipynb` - Implementation
+- 📁 `2.Adagrad/` - Adagrad optimizer
+  - 📄 `explanation.md` - Complete guide
+- 📁 `3.Rmsprop/` - RMSProp optimizer
+  - 📄 `explanation.md` - Detailed explanation
+- 📁 `4.Adam_Optimiser/` - Adam optimizer
+  - 📄 `explanation.md` - Industry standard guide
 
 **Optimizer Comparison:**
 | Optimizer | Learning Rate | Best For |
@@ -392,6 +402,251 @@ graph TD
 
 ---
 
+## 📑 Complete Content Index
+
+### 📂 Core Modules (8 Chapters)
+
+<details>
+<summary><b>📘 01. Neural Network Introduction</b> - Foundation Concepts</summary>
+
+- `Intro.md` - What is a neural network?
+- `NeuralNetworks_Coding_From_Scratch_Part1.ipynb` - First neuron implementation
+- **Key Topics**: Neurons, weights, biases, basic formula
+
+</details>
+
+<details>
+<summary><b>🏗️ 02. Coding a Dense Layer</b> - Building Blocks</summary>
+
+- `Dense_layer.ipynb` - Complete dense layer from scratch
+- **Key Topics**: Matrix operations, layer connections, forward pass
+
+</details>
+
+<details>
+<summary><b>⚡ 03. Activation Functions</b> - Non-linearity</summary>
+
+- `Explanation_of_activation_layers.md` - Theory and use cases
+- `activation_functions.ipynb` - All activations coded
+- **Key Topics**: Sigmoid, Tanh, ReLU, Leaky ReLU, Softmax
+
+</details>
+
+<details>
+<summary><b>🧮 04. Partial Derivatives</b> - Calculus Foundations</summary>
+
+- `partial_derivatives_explantion.md` - Math foundations
+- `gradient_derivative.md` - Gradient computation
+- **Key Topics**: Chain rule, derivatives, gradient computation
+
+</details>
+
+<details>
+<summary><b>🔄 05. Backpropagation</b> - The Learning Algorithm ⭐</summary>
+
+- `01.Backpropogation_explanation.md` - Complete theory
+- `02.backpropogation_manual_calculation.md` - Step-by-step math
+- `03.backpropogation.ipynb` - Interactive tutorial
+- `04.Spiral_data_backpropogation.ipynb` - Real dataset
+- `Implemention_backpropogation_crossentropyloss/`
+  - `01.Implemention_backpropogation_crossentropyloss.md` - Advanced theory
+  - `code.ipynb` - Full implementation
+- **Key Topics**: Gradient flow, chain rule, weight updates, cross-entropy
+
+</details>
+
+<details>
+<summary><b>🔢 06. Matrix Mathematics for Backpropagation</b> - Deep Understanding</summary>
+
+- `explanation.md` - Why matrices matter
+- `manual_cal_coding.ipynb` - Manual calculations
+- **Key Topics**: Transpose operations, shape reasoning, efficient computation
+
+</details>
+
+<details>
+<summary><b>📉 07. Gradient Descent</b> - Optimization Basics</summary>
+
+- `Types_of_GD.md` - All gradient descent variants
+- **Key Topics**: Batch GD, Stochastic GD, Mini-batch GD
+
+</details>
+
+<details>
+<summary><b>🚀 08. Optimizers</b> - Advanced Training</summary>
+
+- `explantion.md` - Overview of all optimizers
+- `1.Momentum/`
+  - `explanation.md` - Momentum theory
+  - `code.ipynb` - Implementation
+- `2.Adagrad/`
+  - `explanation.md` - Adaptive learning rates
+- `3.Rmsprop/`
+  - `explanation.md` - RMSProp explained
+- `4.Adam_Optimiser/`
+  - `explanation.md` - Industry standard
+- **Key Topics**: SGD, Momentum, Adagrad, RMSProp, Adam
+
+</details>
+
+---
+
+### 🎁 Bonus Content
+
+<details>
+<summary><b>📚 Books for Deep Learning (11 Premium Books)</b></summary>
+
+1. Neural Networks and Deep Learning - Michael Nielsen
+2. Deep Learning From Scratch
+3. Fundamentals of Deep Learning
+4. Applied Deep Learning
+5. Deep Learning with Python - François Chollet
+6. Programming PyTorch
+7. Generative Deep Learning
+8. NN from Scratch (Reference Book)
+9. Deep Learning Course Notes
+10. DL Notes
+11. Additional reference materials
+
+</details>
+
+<details>
+<summary><b>📊 Cheat Sheets (10 Essential Guides)</b></summary>
+
+1. Convolutional Neural Networks
+2. Recurrent Neural Networks
+3. Transformers & Large Language Models
+4. Deep Learning Tips & Tricks
+5. Reflex Models
+6. States Models
+7. Variables Models
+8. Logic Models
+9. Super Cheatsheet: Deep Learning
+10. Super Cheatsheet: Artificial Intelligence
+
+</details>
+
+<details>
+<summary><b>🎨 Building Micrograd</b> - Andrej Karpathy's Tutorial</summary>
+
+- `01.Intro.ipynb` - Build an autograd engine from scratch
+- **Key Topics**: Automatic differentiation, computational graphs, PyTorch internals
+
+</details>
+
+<details>
+<summary><b>📄 Research Papers</b> - Foundational AI Papers</summary>
+
+- Collection of seminal papers in deep learning
+- **Topics**: Neural network architectures, training techniques, optimization
+
+</details>
+
+---
+
+## 🏗️ Neural Network Architecture Overview
+
+### 📐 What You'll Build
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    NEURAL NETWORK PIPELINE                   │
+└─────────────────────────────────────────────────────────────┘
+
+📥 INPUT LAYER
+   ↓
+   [x₁, x₂, ..., xₙ]
+   ↓
+🧱 DENSE LAYER 1 (Hidden)
+   ↓
+   Z₁ = X·W₁ + b₁
+   ↓
+⚡ ACTIVATION (ReLU/Sigmoid/Tanh)
+   ↓
+   A₁ = activation(Z₁)
+   ↓
+🧱 DENSE LAYER 2 (Hidden)
+   ↓
+   Z₂ = A₁·W₂ + b₂
+   ↓
+⚡ ACTIVATION (ReLU)
+   ↓
+   A₂ = activation(Z₂)
+   ↓
+🧱 OUTPUT LAYER
+   ↓
+   Z₃ = A₂·W₃ + b₃
+   ↓
+⚡ SOFTMAX (Classification) / LINEAR (Regression)
+   ↓
+   ŷ = softmax(Z₃)
+   ↓
+❌ LOSS FUNCTION
+   ↓
+   L = CrossEntropy(ŷ, y) or MSE(ŷ, y)
+   ↓
+🔄 BACKPROPAGATION
+   ↓
+   ∂L/∂W₃, ∂L/∂W₂, ∂L/∂W₁
+   ↓
+🚀 OPTIMIZER (SGD/Adam/RMSProp)
+   ↓
+   W = W - η·∇W
+   ↓
+🔁 REPEAT UNTIL CONVERGENCE
+```
+
+### 🎯 Key Components You'll Master
+
+| Component                  | What It Does          | Where You Learn It |
+| -------------------------- | --------------------- | ------------------ |
+| 🧱 **Dense Layer**         | Connects neurons      | Module 02          |
+| ⚡ **Activation**          | Adds non-linearity    | Module 03          |
+| 📉 **Loss Function**       | Measures error        | Module 05          |
+| 🔄 **Backpropagation**     | Computes gradients    | Module 05          |
+| 🧮 **Partial Derivatives** | Calculus foundation   | Module 04          |
+| 📊 **Gradient Descent**    | Updates weights       | Module 07          |
+| 🚀 **Optimizers**          | Smart weight updates  | Module 08          |
+| 🔢 **Matrix Operations**   | Efficient computation | Module 06          |
+
+---
+
+## 🎓 Learning Outcomes
+
+### After Completing This Course, You Will:
+
+✅ **Understand** how neural networks work at a fundamental level  
+✅ **Implement** neural networks from scratch using only NumPy  
+✅ **Explain** backpropagation, gradient descent, and optimization  
+✅ **Debug** neural network training issues  
+✅ **Build** real-world machine learning applications  
+✅ **Read** and understand research papers  
+✅ **Transition** easily to frameworks like PyTorch and TensorFlow  
+✅ **Interview** confidently for ML/AI positions
+
+### 🧠 Core Concepts Mastered
+
+**Fundamentals:**
+
+- ✅ Neurons & Perceptrons
+- ✅ Forward Propagation
+- ✅ Activation Functions (Sigmoid, ReLU, Softmax, etc.)
+- ✅ Loss Functions (MSE, Cross-Entropy)
+- ✅ Backpropagation Algorithm
+- ✅ Gradient Descent & Variants
+- ✅ Matrix Operations for Neural Networks
+
+**Advanced Topics:**
+
+- ✅ Momentum & Adaptive Learning Rates
+- ✅ Optimizer Comparison (SGD, Adam, RMSProp, Adagrad)
+- ✅ Batch vs Stochastic vs Mini-batch Training
+- ✅ Autograd Engines
+- ✅ Deep Network Architectures
+- ✅ Training Dynamics & Convergence
+
+---
+
 ## 🛠️ Repository Structure
 
 ```
@@ -408,10 +663,13 @@ graph TD
 │   ├── 📄 partial_derivatives_explantion.md
 │   └── 📄 gradient_derivative.md
 ├── 📁 05.BackPropogation/
-│   ├── 📄 Backpropogation_explanation.md
-│   ├── 📄 backpropogation_manual_calculation.md
-│   ├── 📓 backpropogation.ipynb
-│   └── 📓 Spiral_data_backpropogation.ipynb
+│   ├── 📄 01.Backpropogation_explanation.md
+│   ├── 📄 02.backpropogation_manual_calculation.md
+│   ├── 📓 03.backpropogation.ipynb
+│   ├── 📓 04.Spiral_data_backpropogation.ipynb
+│   └── 📁 Implemention_backpropogation_crossentropyloss/
+│       ├── 📄 01.Implemention_backpropogation_crossentropyloss.md
+│       └── 📓 code.ipynb
 ├── 📁 06.Why_matrices_imp_for_backpropogation/
 │   ├── 📄 explanation.md
 │   └── 📓 manual_cal_coding.ipynb
@@ -420,9 +678,14 @@ graph TD
 ├── 📁 08.Optimisers/
 │   ├── 📄 explantion.md
 │   ├── 📁 1.Momentum/
+│   │   ├── 📄 explanation.md
+│   │   └── 📓 code.ipynb
 │   ├── 📁 2.Adagrad/
+│   │   └── 📄 explanation.md
 │   ├── 📁 3.Rmsprop/
+│   │   └── 📄 explanation.md
 │   └── 📁 4.Adam_Optimiser/
+│       └── 📄 explanation.md
 ├── 📁 Bonus/
 │   ├── 📁 Book_for_Deep_Learning/
 │   │   └── 📚 11 Premium Books
@@ -436,44 +699,6 @@ graph TD
 │   └── 🖼️ Visual Resources
 └── 📄 README.md (You are here!)
 ```
-
----
-
-## 🎯 Learning Outcomes
-
-### After Completing This Course, You Will:
-
-✅ **Understand** how neural networks work at a fundamental level  
-✅ **Implement** neural networks from scratch using only NumPy  
-✅ **Explain** backpropagation, gradient descent, and optimization  
-✅ **Debug** neural network training issues  
-✅ **Build** real-world machine learning applications  
-✅ **Read** and understand research papers  
-✅ **Transition** easily to frameworks like PyTorch and TensorFlow  
-✅ **Interview** confidently for ML/AI positions
-
----
-
-## 🌟 Key Concepts Covered
-
-### 🧠 Core Concepts
-
-- ✅ Neurons & Perceptrons
-- ✅ Forward Propagation
-- ✅ Activation Functions (Sigmoid, ReLU, Softmax, etc.)
-- ✅ Loss Functions (MSE, Cross-Entropy)
-- ✅ Backpropagation (The Backbone!)
-- ✅ Gradient Descent & Optimization
-- ✅ Matrix Operations for Neural Networks
-
-### 🔥 Advanced Topics
-
-- ✅ Momentum & Adaptive Learning Rates
-- ✅ Regularization Techniques
-- ✅ Batch Normalization
-- ✅ Dropout
-- ✅ Autograd Engines
-- ✅ Deep Network Architectures
 
 ---
 
